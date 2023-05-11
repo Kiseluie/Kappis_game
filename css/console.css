@@ -2,7 +2,7 @@
 
 :root {
 	--background: #0F1419;
-	--accent: #FFB454;
+	--accent: #0095ff;
   --highlight: rgba(255,255,255,0.05);
   --hardhighlight: rgba(255, 180, 84,0.1);
   --activetext: #D9D7CE;
@@ -29,7 +29,7 @@
 
 #content {
 	height: 50vh;
-	width: 50vw;
+	width: 73vw;
 	overflow: hidden;
 	display: grid;
 	grid: 100% / 2fr 1fr;
