@@ -28,6 +28,8 @@ body{
 
     display: flex;
     align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .block-txt{
     width: 100%;
@@ -37,4 +39,11 @@ body{
 .console{
     height: 500px;
     width: 100%;
+}
+
+.text{
+   padding-left: 5%;
+    font-size: 1.5em;
+    color: white;
+  
 }
