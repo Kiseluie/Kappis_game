@@ -28,6 +28,8 @@ body{
     flex-direction: column;
     display: flex;
     align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .block-txt{
     width: 100%;
@@ -38,3 +40,13 @@ body{
     height: 500px;
     width: 100%;
 } */
+
+.text{
+   padding-left: 5%;
+    font-size: 1.5em;
+    color: white;
+  
+}
+.img-block-txt{
+    background-image: url('../img/nav.jpg');
+}
