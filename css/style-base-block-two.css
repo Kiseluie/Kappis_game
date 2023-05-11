@@ -47,3 +47,6 @@ body{
     color: white;
   
 }
+.img-block-txt{
+    background-image: url('../img/nav.jpg');
+}
