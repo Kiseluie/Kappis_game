@@ -29,7 +29,6 @@ const adding_text = document.querySelector('#mainstream-text');
 let interval = 0;
 
 function typing(text_name) {
-    clearTimeout(interval);
 
     let count = 0; // счетчик позиции букв
     let result = ''; // получаемый текст на выходе
@@ -43,7 +42,6 @@ function typing(text_name) {
 
                 count++;
                 if (count >= text[text_name].length) {
-                    clearTimeout(interval);
                     adding_text.innerHTML = result;
                     return true;
                 }
@@ -53,6 +51,7 @@ function typing(text_name) {
 }
 
 click_text.onclick = function () {
+    clearTimeout(interval);
     page++;
     console.log(page);
     switch (page) {
@@ -67,7 +66,6 @@ click_text.onclick = function () {
             break;
         default:
             adding_text.innerHTML = "UNKNOWN PAGE OR PAGES IS OVER!";
-            clearTimeout(interval);
             break;
     }
 }
