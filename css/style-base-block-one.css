@@ -1,60 +1,59 @@
 /* Подключение шрифтов */
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
-*{
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+* {
+  margin: 0;
 }
-.font-family{
-    font-family: 'Neucha', cursive;
+.font-family {
+  font-family: "Neucha", cursive;
 }
 /* Структура блоков */
-body{
-    background-color: white;
-    color: black;
+body {
+  background-color: white;
+  color: black;
 }
-.capi-background{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content:  flex-end;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.bg-capi-container{
-    width: 100%;
+.capi-background {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.bg-capi-container{
-    background-color: rgba(35, 35, 35, 1);
-    height: 120px;
-    
+.bg-capi-container {
+  width: 100%;
 }
 
-.block-named{
-    background-image: url('../img/Rectangle.png');
-    width: 400px;
-    height: 115px;
-    margin-bottom: 6%;
+.bg-capi-container {
+  background-color: rgba(35, 35, 35, 1);
+  height: 120px;
 }
 
-.text-block-named{
-    text-align: center;
-    margin-top: 6%;
-    font-size: 3em;
-    color: white;
+.block-named {
+  background-image: url("../img/Rectangle.png");
+  width: 400px;
+  height: 115px;
+  margin-bottom: 6%;
 }
 
-.capi-container-with-text{
-    height: 50px;
-    margin: 30px 80px 30px;
-    font-size: 1.5em;
-    color: white;
-    hyphens: auto;
-    word-break:break-all;
+.text-block-named {
+  text-align: center;
+  margin-top: 6%;
+  font-size: 3em;
+  color: white;
+}
+
+.capi-container-with-text {
+  height: 50px;
+  margin: 30px 80px 30px;
+  font-size: 1.5em;
+  color: white;
+  hyphens: auto;
+  word-break: break-word;
 }
 
 /* Загатовки для изменений*/
-.capi-bg-one{
-    background-image: url('../img/1.png');
-    background-size: cover;
+.capi-bg-one {
+  background-image: url("../img/1.png");
+  background-size: cover;
 }
